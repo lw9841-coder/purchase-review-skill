@@ -1,0 +1,26 @@
+{
+  "skill_name": "product-purchase-review",
+  "evals": [
+    {
+      "id": 0,
+      "name": "duplicate-intent-in-cart",
+      "prompt": "I've got 3 different dash cams sitting in my amazon cart, been meaning to pick one for months. I drive a lot for work, mostly rural two-lanes in Oklahoma and Arkansas. Which one should I actually get?",
+      "expected_output": "Recognizes three products = one undecided need, not three purchases. Asks what the dashcam is actually for before researching. Returns premium/value/budget with a decisive pick and where to buy.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "ask-first-context-dependent",
+      "prompt": "need a decent office chair for the room im renting. dont want to spend a ton but my back is killing me",
+      "expected_output": "Asks clarifying questions before researching (space, how long seated, budget, whether it must move with the user). Does not immediately produce a product list.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "skip-verdict-and-free-alternative",
+      "prompt": "amazon keeps showing me wifi extenders, the signal is terrible in my room. should i just get one?",
+      "expected_output": "Surfaces that the user may not control the router/network, so an extender may be the wrong fix. Offers the free or ask-the-homeowner path before recommending a purchase. Willing to say don't buy.",
+      "files": []
+    }
+  ]
+}

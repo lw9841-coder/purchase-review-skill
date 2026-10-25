@@ -1,0 +1,167 @@
+{
+  "note": "Each eval run once per iteration, with and without the skill, graded against written checks. Checks were tightened between iterations.",
+  "runs": [
+    {
+      "iteration": 1,
+      "eval": "duplicate-intent-in-cart",
+      "config": "with_skill",
+      "checks_passed": 4,
+      "checks_total": 6,
+      "seconds": 1199.9,
+      "tokens": 80710
+    },
+    {
+      "iteration": 1,
+      "eval": "duplicate-intent-in-cart",
+      "config": "without_skill",
+      "checks_passed": 4,
+      "checks_total": 6,
+      "seconds": 140.2,
+      "tokens": 51595
+    },
+    {
+      "iteration": 1,
+      "eval": "ask-first-context-dependent",
+      "config": "with_skill",
+      "checks_passed": 5,
+      "checks_total": 5,
+      "seconds": 75.4,
+      "tokens": 46927
+    },
+    {
+      "iteration": 1,
+      "eval": "ask-first-context-dependent",
+      "config": "without_skill",
+      "checks_passed": 5,
+      "checks_total": 5,
+      "seconds": 100.8,
+      "tokens": 47383
+    },
+    {
+      "iteration": 1,
+      "eval": "skip-verdict-and-free-alternative",
+      "config": "with_skill",
+      "checks_passed": 5,
+      "checks_total": 5,
+      "seconds": 78.6,
+      "tokens": 47763
+    },
+    {
+      "iteration": 1,
+      "eval": "skip-verdict-and-free-alternative",
+      "config": "without_skill",
+      "checks_passed": 5,
+      "checks_total": 5,
+      "seconds": 79.4,
+      "tokens": 44434
+    },
+    {
+      "iteration": 2,
+      "eval": "duplicate-intent-in-cart",
+      "config": "with_skill",
+      "checks_passed": 6,
+      "checks_total": 6,
+      "seconds": 293.0,
+      "tokens": 69396
+    },
+    {
+      "iteration": 2,
+      "eval": "duplicate-intent-in-cart",
+      "config": "without_skill",
+      "checks_passed": 4,
+      "checks_total": 6,
+      "seconds": 169.1,
+      "tokens": 52412
+    },
+    {
+      "iteration": 2,
+      "eval": "ask-first-context-dependent",
+      "config": "with_skill",
+      "checks_passed": 5,
+      "checks_total": 5,
+      "seconds": 69.8,
+      "tokens": 45421
+    },
+    {
+      "iteration": 2,
+      "eval": "ask-first-context-dependent",
+      "config": "without_skill",
+      "checks_passed": 4,
+      "checks_total": 5,
+      "seconds": 89.6,
+      "tokens": 47168
+    },
+    {
+      "iteration": 2,
+      "eval": "skip-verdict-and-free-alternative",
+      "config": "with_skill",
+      "checks_passed": 5,
+      "checks_total": 5,
+      "seconds": 144.3,
+      "tokens": 52100
+    },
+    {
+      "iteration": 2,
+      "eval": "skip-verdict-and-free-alternative",
+      "config": "without_skill",
+      "checks_passed": 5,
+      "checks_total": 5,
+      "seconds": 70.5,
+      "tokens": 44031
+    },
+    {
+      "iteration": 3,
+      "eval": "duplicate-intent-in-cart",
+      "config": "with_skill",
+      "checks_passed": 6,
+      "checks_total": 6,
+      "seconds": 435.5,
+      "tokens": 68968
+    },
+    {
+      "iteration": 3,
+      "eval": "duplicate-intent-in-cart",
+      "config": "without_skill",
+      "checks_passed": 6,
+      "checks_total": 6,
+      "seconds": 149.9,
+      "tokens": 52117
+    },
+    {
+      "iteration": 3,
+      "eval": "ask-first-context-dependent",
+      "config": "with_skill",
+      "checks_passed": 6,
+      "checks_total": 6,
+      "seconds": 222.4,
+      "tokens": 61396
+    },
+    {
+      "iteration": 3,
+      "eval": "ask-first-context-dependent",
+      "config": "without_skill",
+      "checks_passed": 6,
+      "checks_total": 6,
+      "seconds": 113.2,
+      "tokens": 49945
+    },
+    {
+      "iteration": 3,
+      "eval": "skip-verdict-and-free-alternative",
+      "config": "with_skill",
+      "checks_passed": 6,
+      "checks_total": 6,
+      "seconds": 139.7,
+      "tokens": 53961
+    },
+    {
+      "iteration": 3,
+      "eval": "skip-verdict-and-free-alternative",
+      "config": "without_skill",
+      "checks_passed": 6,
+      "checks_total": 6,
+      "seconds": 78.0,
+      "tokens": 44136
+    }
+  ]
+}
